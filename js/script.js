@@ -46,7 +46,7 @@ document.getElementById('passeggero').innerHTML = nome;
 document.getElementById('numeroTreno').innerHTML = numeroTreno;
 document.getElementById('carrozza').innerHTML = carrozza;
 document.getElementById('prezzoBiglietto').innerHTML = prezzoTotale;
-document.getElementById('categoria').innerHTML = categoria;
+document.getElementById('categoriaPasseggero').innerHTML = categoria;
 //elem.innerHTML="prezzo biglietto: " + prezzoKm.toFixed(2) +"€";
 
 //btn.addEventListener("click", function(){
