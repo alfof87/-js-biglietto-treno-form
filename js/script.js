@@ -1,12 +1,16 @@
 //il prezzo del biglietto è definito in base ai km (0.21 € al km)
 var prezzoKm = 0.21;
-
+var minCarrozza = 1;
+var maxCarrozza = 10;
+var minNumTreno = 90000;
+var maxNumTreno = 100000;
 //sconto del 20% per i minorenni
 //var minorenni = prezzoBiglietto - prezzoBiglietto * 0.2;
 //va applicato uno sconto del 40% per gli over 65.
 //var over65 = prezzoBiglietto - prezzoBiglietto * 0.4;
 var prezzoTotale;
 var eta;
+
 //var btn = document.getElementById('btn')
 var creaBtn = document.getElementById("creaBiglietto");
 
