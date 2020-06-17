@@ -7,8 +7,8 @@ var km;
 //var over65 = prezzoBiglietto - prezzoBiglietto * 0.4;
 var prezzoTotale;
 var eta;
-var elem = document.getElementById('nome')
 
+var btn = document.getElementById('btn')
 
 
 if (eta < 18){
@@ -22,16 +22,11 @@ else {
 prezzoTotale = km * prezzoKm;
 }
 
-console.log(elem);
 
 
+//elem.innerHTML="prezzo biglietto: " + prezzoKm.toFixed(2) +"€";
 
-
-
-
-
-
-
-
-
-elem.innerHTML="prezzo biglietto: " + prezzoKm.toFixed(2) +"€";
+btn.addEventListener("click", function(){
+ var elem = document.getElementById('nome')
+ console.log(elem.value);
+})
